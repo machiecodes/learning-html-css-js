@@ -1,0 +1,32 @@
+.a-input {
+    display: block;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.b-p {
+    display: inline-block;
+    width: 240px;
+    vertical-align: middle;
+}
+
+button {
+    vertical-align: middle;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin-left: 100px;
+}
+
+.c-input {
+    padding: 10px;
+    width: 350px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25%);
+    border-radius: 17px;
+}
