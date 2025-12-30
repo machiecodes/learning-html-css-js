@@ -1,0 +1,72 @@
+p, button, input {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.d {
+    padding: 10px;
+    width: 120px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+.e {
+    padding: 10px;
+    width: 350px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 25%);
+    border-radius: 17px;
+}
+
+.f-input {
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 375px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.f-button {
+    margin-top: 15px;
+    background-color: #0e5ed1;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 397px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.g-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.g-input {
+    height: 50px;
+    width: 250px;
+    vertical-align: middle;
+    border: none;
+    font-size: 20px;
+}
+
+.g-button {
+    vertical-align: middle;
+    background-color: #498ef1;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

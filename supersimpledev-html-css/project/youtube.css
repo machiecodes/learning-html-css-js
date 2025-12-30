@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+
+    /* Controls how the image fits in the space it's given if both height and width are set */
+    /*object-fit: contain;*/
+
+    /* Controls where in the space the image sits */
+    /*object-position: right;*/
+}
+
+.search-bar {
+
+}
