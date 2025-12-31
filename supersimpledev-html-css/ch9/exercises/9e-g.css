@@ -1,0 +1,74 @@
+.tweet-bar {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px grey;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.e-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.e-input {
+    height: 50px;
+    width: 350px;
+    vertical-align: middle;
+    border: none;
+    font-size: 20px;
+}
+
+.e-button {
+    vertical-align: middle;
+    background-color: #498ef1;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.f-pet-listing {
+    width: 175px;
+    margin: 0 15px 20px 0;
+    box-shadow: 0 0 5px grey;
+}
+
+.pet-image {
+    width: 175px;
+    height: 175px;
+    margin: 0;
+}
+
+.pet-name {
+    margin: 0 0 0 10px;
+    font-weight: bold;
+}
+
+.pet-friends {
+    margin: 0 0 10px 10px;
+    color: grey;
+}
+
+.add-button {
+    background-color: #0e5ed1;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.g-pet-listing {
+    display: inline-block;
+}
