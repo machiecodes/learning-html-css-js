@@ -1,0 +1,56 @@
+p {
+    margin: 0;
+}
+
+.pet-listing {
+    display: inline-block;
+    width: 200px;
+    margin-right: 15px;
+    box-shadow: 0 0 5px grey;
+}
+
+.pet-image {
+    width: 200px;
+    height: 200px;
+}
+
+.pet-name {
+    font-weight: 600;
+    margin: 0 0 5px 10px;
+}
+
+.friends-row {
+    margin: 0 0 5px 10px;
+}
+
+.image-col {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.friends-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.text-col {
+    display: inline-block;
+}
+
+.friends-text {
+    color: lightgrey;
+    font-size: 13px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+button {
+    display: block;
+    margin: 0 0 10px 10px;
+    border: 0;
+    background-color: #0e5ed1;
+    color: white;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+}
