@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+  <p>
+    Main difference from grid is that grid defines column widths in the parent element<br>
+    and children are automatically inserted into those columns in order; in flex the<br>
+    parent only says it's flex, and each child defines its own width so more flexible<br>
+    <br>
+    For example, the youtube header has less buttons available if you aren't signed in,<br>
+    this is a good place to use flex since we can't define a set number of columns
+  </p>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+  ">
+    <div style="background-color: lightblue">
+      Div 1 text
+    </div>
+    <div style="background-color: lightcoral">
+      Div 2
+      <p>text</p>
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightcoral;
+      flex: 1;
+    ">
+      flex: 1
+      <p>equivalent to 1fr grid</p>
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightcoral;
+      flex: 1;
+    ">
+      flex: 1
+      <p>equivalent to 1fr grid</p>
+    </div>
+    <div style="
+      background-color: lightgreen;
+      flex: 2;
+    ">
+      flex: 2
+      <p>equivalent of 2fr</p>
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 70px;
+    border: 2px solid grey;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightcoral;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightgreen;
+      width: 100px;
+    ">
+      100px
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 70px;
+    border: 2px solid grey;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightcoral;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightgreen;
+      width: 100px;
+    ">
+      100px
+    </div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Controls vertical align */
+
+    height: 70px;
+    border: 2px solid grey;
+    margin-top: 30px;
+  ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightcoral;
+      width: 100px;
+    ">
+      100px
+    </div>
+    <div style="
+      background-color: lightgreen;
+      width: 100px;
+    ">
+      100px
+    </div>
+  </div>
+</body>
+</html>
