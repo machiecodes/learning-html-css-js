@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 50px;
+}
+
 p {
     font-family: "Roboto", sans-serif;
     margin-top: 0;
@@ -6,38 +10,29 @@ p {
 
 .search-bar {
     display: block;
+    margin-bottom: 25px;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 25px;
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
-}
-
-.thumbnail-row {
+    width: 100%;
     margin-bottom: 12px;
 }
 
-.channel-picture {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
     width: 40px;
-    border-radius: 50px;
-}
-
-.video-info {
-    display: inline-block;
-    width: 200px;
+    border-radius: 20px;
 }
 
 .video-title {
@@ -54,5 +49,5 @@ p {
 }
 
 .video-author {
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
