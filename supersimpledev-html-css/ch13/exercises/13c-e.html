@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>13c-e</title>
+
+  <style>
+    p {
+        margin: 0;
+    }
+
+    .inbox {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        box-shadow: 0 0 5px lightgrey;
+        width: 375px;
+    }
+
+    .all-inboxes {
+        color: grey;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .email {
+        display: flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .sender-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .image-col {
+        width: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-line {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
+    .timestamp, .body {
+        color: grey;
+        font-size: 14px;
+    }
+
+    .subject {
+        font-weight: bold;
+        font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="inbox">
+    <div class="all-inboxes">ALL INBOXES</div>
+
+    <div class="email">
+      <div class="image-col">
+        <img class="sender-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+      </div>
+      <div style="flex: 1">
+        <div class="title-line">
+          <p class="title">Chewy Promotions</p>
+          <p class="timestamp">4:58 PM</p>
+        </div>
+        <p class="subject">Biggest sale of the year!</p>
+        <p class="body">Hey there! We're writing to tell you about our...</p>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="image-col">
+        <img class="sender-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+      </div>
+      <div style="flex: 1">
+        <div class="title-line">
+          <p class="title">Netflix</p>
+          <p class="timestamp">9:00 AM</p>
+        </div>
+        <p class="subject">Here's what's coming soon to Netflix</p>
+        <p class="body">Brand new movies and shows, old favorites...</p>
+      </div>
+    </div>
+
+    <div class="email">
+      <div class="image-col">
+        <img class="sender-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+      </div>
+      <div style="flex: 1">
+        <div class="title-line">
+          <p class="title">Best Buy</p>
+          <p class="timestamp">12:32 PM</p>
+        </div>
+        <p class="subject">Your Best Buy eReceipt</p>
+        <p class="body">Thank you for shopping at best buy, here is...</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
