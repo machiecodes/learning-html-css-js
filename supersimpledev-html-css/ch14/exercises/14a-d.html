@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>14a-d</title>
+
+  <style>
+    body {
+        height: 3000px;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .div-14a {
+        background-color: black;
+        color: white;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 2;
+    }
+
+    .div-14b {
+        background-color: green;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        color: white;
+        width: 100px;
+        z-index: 1;
+    }
+
+    .div-14c {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        background-color: #498ef1;
+    }
+
+    .div-14d {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal {
+        background-color: white;
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .text {
+        margin-bottom: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="div-14a">
+    bottom-right
+  </div>
+
+  <div class="div-14b">
+    right sidebar
+  </div>
+
+  <div class="div-14c"></div>
+
+  <div class="div-14d">
+    <div class="modal">
+      <p class="title">Modal Title</p>
+      <p class="text">This is a modal</p>
+      <button>Close</button>
+    </div>
+  </div>
+</body>
+</html>

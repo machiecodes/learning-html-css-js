@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>14e-f</title>
+
+  <style>
+    body {
+        margin: 0;
+        padding-top: 50px;
+        height: 1000px;
+        background-color: lightcoral;
+    }
+
+    p {
+        margin: 10px 0 0 10px;
+    }
+
+    .facebook-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-color: white;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .user-info {
+        display: flex;
+        align-items: center;
+        margin: 0 200px 0 50px;
+    }
+
+    .user-image {
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 10px;
+    }
+
+    .username {
+        margin: 0;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .buttons {
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    button {
+        padding: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .add-friend {
+        background-color: #0e5ed1;
+        color: white;
+        margin-right: 7px;
+    }
+
+
+    .servers-sidebar {
+        position: fixed;
+        left: 0;
+        top: 50px;
+        bottom: 0;
+        width: 80px;
+        background-color: rgb(37, 39, 42);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .server-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .server-sidebar {
+        position: fixed;
+        left: 80px;
+        top: 50px;
+        bottom: 0;
+        width: 150px;
+        background-color: rgb(51, 52, 56);
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .category {
+        font-weight: bold;
+        font-size: 14px;
+        color: #d0d0d0;
+    }
+
+    .add-symbol {
+        font-size: 22px;
+        margin-right: 10px;
+        color: rgb(150, 150, 150);
+    }
+
+    .channel {
+        color: rgb(150, 150, 150);
+    }
+  </style>
+</head>
+<body>
+  <div class="facebook-bar">
+    <div class="user-info">
+      <div>
+        <img class="user-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+      </div>
+      <div>
+        <p class="username">Oliver Cat</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="add-friend">Add Friend</button>
+      <button>Message</button>
+    </div>
+  </div>
+
+  <div class="servers-sidebar">
+    <img class="server-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+    <img class="server-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+    <img class="server-image" src="queercoded.jpg" alt="So you're telling me a queer coded this"/>
+  </div>
+  <div class="server-sidebar">
+    <div class="header">
+      <p class="category">INFO</p>
+      <p class="add-symbol">+</p>
+    </div>
+    <p class="channel"># new-videos</p>
+    <p class="channel"># updates</p>
+    <p class="channel"># faqs</p>
+  </div>
+</body>
+</html>
