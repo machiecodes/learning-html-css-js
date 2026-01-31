@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position Practice</title>
+</head>
+<body style="padding: 100px 0 1000px 100px; margin: 0;">
+  <div style="
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+  ">
+    Header
+  </div>
+
+  <div style="
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    width: 100px;
+  ">
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      top: 0;
+      right: 0;
+    ">
+      x
+    </div>
+    sidebar
+  </div>
+
+  <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 10px;
+    top: 10px;
+  ">
+    absolute
+  </div>
+
+  <!-- position: relative to make absolute work based off of non-fixed elements of page -->
+  <div style="background-color: lightblue; height: 200px; width: 200px; position: relative">
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      left: 10px;
+      top: 10px;
+    ">
+      absolute
+    </div>
+    Div 1
+  </div>
+  <div style="background-color: lightcoral; height: 200px; width: 200px">Div 2</div>
+</body>
+</html>
